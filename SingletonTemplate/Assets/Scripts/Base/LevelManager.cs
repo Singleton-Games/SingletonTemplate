@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class LevelManager : MonoBehaviour
+public class LevelManager : Singleton<LevelManager>
 {
     [Header("Levels")]
     [SerializeField] private GameObject[] levels;
@@ -14,6 +14,8 @@ public class LevelManager : MonoBehaviour
     }
     private void LevelSpawn()
     {
+        levelIndex = PlayerPrefs.GetInt(StringData.PLAYER);
+        
         if (levels[levelIndex] == null)
         {
             Debug.LogError("Level is not found");
@@ -23,4 +25,6 @@ public class LevelManager : MonoBehaviour
             GameObject levelObject = Instantiate(levels[levelIndex],Vector3.zero,Quaternion.identity,levelParent);
         }
     }
+    public void NextLevel() => PlayerPrefs.SetInt(StringData.PLAYER,levelIndex + 1);
+    public void RestartLevel() => PlayerPrefs.SetInt(StringData.PLAYER,levelIndex);
 }

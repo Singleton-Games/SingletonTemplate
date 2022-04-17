@@ -1,12 +1,13 @@
 using UnityEngine;
 
-public class PlayerController : Singleton<MonoBehaviour>
+public class PlayerController : Singleton<PlayerController>
 {
-    public PlayerState playerState;
-
+    [Header("PlayerState")]
+    [SerializeField]  private PlayerState playerState;
+    public PlayerState PlayerState { get => playerState; set => playerState = value; }
     private void Update()
     {
-        switch (playerState)
+        switch (PlayerState)
         {
             case PlayerState.None:
                 break;

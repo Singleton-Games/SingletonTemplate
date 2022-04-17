@@ -10,6 +10,9 @@ public class CameraController : MonoBehaviour
     }
     private void LateUpdate()
     {
-        transform.position = new Vector3(transform.position.x,target.position.y,target.position.z) + dif;
+        if (target != null)
+        {
+            transform.position = new Vector3(transform.position.x,target.position.y,target.position.z) + dif;
+        }
     }
 }
