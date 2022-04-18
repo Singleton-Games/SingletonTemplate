@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dreamteck.Utilities", "Dreamteck.Utilities.csproj", "{0ac7d30e-85b0-792f-57fa-7f2e3b3f214b}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoreMountains.NiceVibrations.Haptics", "MoreMountains.NiceVibrations.Haptics.csproj", "{8f591f79-56ef-3132-0438-ba15f5827ee4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dreamteck.Splines", "Dreamteck.Splines.csproj", "{9a310560-134c-a517-7d1a-5c6f9538c6d8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoreMountains.NiceVibrations.Demos", "MoreMountains.NiceVibrations.Demos.csproj", "{624f5d21-ccf9-8910-f649-38f8b72e6dcb}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{9bd419b5-db7e-47c6-d1fc-b37671fabbf1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoreMountains.NiceVibrations", "MoreMountains.NiceVibrations.csproj", "{767bad54-1877-fa56-d592-91d54331b3df}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.csproj", "{4805a623-d367-fa27-70f3-722f1b82c143}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dreamteck.Splines.Editor", "Dreamteck.Splines.Editor.csproj", "{c617603f-1084-2465-af06-48ee1161479c}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dreamteck.Utilities.Editor", "Dreamteck.Utilities.Editor.csproj", "{aef5473d-ab06-af9d-22cb-eeb91356e4f3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoreMountains.NiceVibrations.Editor", "MoreMountains.NiceVibrations.Editor.csproj", "{b0ce32a6-ff8e-7a37-c3ca-9f460a70a5f4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoreMountains.NiceVibrations.Rumble", "MoreMountains.NiceVibrations.Rumble.csproj", "{3a4b6409-605c-0a14-1932-2dd0e997cd42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoreMountains.NiceVibrations.Rumble.Editor", "MoreMountains.NiceVibrations.Rumble.Editor.csproj", "{ddf3cd78-bad2-8946-54d4-0eaf03e06475}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0ac7d30e-85b0-792f-57fa-7f2e3b3f214b}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ac7d30e-85b0-792f-57fa-7f2e3b3f214b}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8f591f79-56ef-3132-0438-ba15f5827ee4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8f591f79-56ef-3132-0438-ba15f5827ee4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9a310560-134c-a517-7d1a-5c6f9538c6d8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9a310560-134c-a517-7d1a-5c6f9538c6d8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{624f5d21-ccf9-8910-f649-38f8b72e6dcb}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{624f5d21-ccf9-8910-f649-38f8b72e6dcb}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9bd419b5-db7e-47c6-d1fc-b37671fabbf1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9bd419b5-db7e-47c6-d1fc-b37671fabbf1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{767bad54-1877-fa56-d592-91d54331b3df}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{767bad54-1877-fa56-d592-91d54331b3df}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4805a623-d367-fa27-70f3-722f1b82c143}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4805a623-d367-fa27-70f3-722f1b82c143}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{c617603f-1084-2465-af06-48ee1161479c}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{c617603f-1084-2465-af06-48ee1161479c}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{aef5473d-ab06-af9d-22cb-eeb91356e4f3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{aef5473d-ab06-af9d-22cb-eeb91356e4f3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{b0ce32a6-ff8e-7a37-c3ca-9f460a70a5f4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{b0ce32a6-ff8e-7a37-c3ca-9f460a70a5f4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3a4b6409-605c-0a14-1932-2dd0e997cd42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3a4b6409-605c-0a14-1932-2dd0e997cd42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ddf3cd78-bad2-8946-54d4-0eaf03e06475}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ddf3cd78-bad2-8946-54d4-0eaf03e06475}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
