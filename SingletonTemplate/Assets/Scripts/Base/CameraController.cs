@@ -3,7 +3,7 @@ public class CameraController : MonoBehaviour
 {
     [SerializeField] private Transform target;
     private Vector3 dif;
-
+    
     private void Start()
     {
         dif = transform.position - target.position;
